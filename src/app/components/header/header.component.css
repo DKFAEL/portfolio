@@ -1,0 +1,74 @@
+.portfolio {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.portfolio span {
+    color: rgb(251, 143, 3);
+}
+
+.navbar {
+    padding: 20px 0px;
+    background-color: #191919;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 6px 0px rgb(251, 143, 3);
+}
+
+.navbar a{
+    margin-right: 40px;
+    white-space: nowrap;
+    color: #ffff;
+}
+
+.navbar a:hover{
+    color: #6E07F3;
+}
+
+@media screen and (max-width: 992px){
+.navbar {
+    padding: 20px 30px;
+}
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+  .btn-primary2 {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    border: solid 2px rgb(251, 143, 3);
+    padding: 14px 25px;
+    cursor: pointer;
+}
+.btn-primary2:hover {
+    background-color: rgba(5.0, 5.0, 0, 5.5);
+    color: rgb(251, 143, 3);;
+    transition: ease-in-out 0.4s;
+}
+.btn-primary2 a{
+    text-decoration: none;
+    color: #6E07F3;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px){
+    .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logotipo-navbar {
+        width: 120px;
+    }
+    }
