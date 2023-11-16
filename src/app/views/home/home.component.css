@@ -1,0 +1,43 @@
+body {
+    background-color: #191919;
+    margin-top: 83px;
+    height: 100vh;
+}
+
+.caixa-principal{ 
+    padding-top: 80px;
+    display: flex;
+}
+
+.caixa-principal h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3.0em;
+}
+
+.caixa-principal span {
+    color: rgb(251, 143, 3);
+}
+
+.caixa-principal h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.caixa-principal p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.intro {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 47vw;
+    margin-right: 80px;
+    padding: 80px 10px 10px 50px;
+    position: relative;
+    z-index: 10;
+}

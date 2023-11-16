@@ -11,7 +11,7 @@
 
 .navbar {
     padding: 20px 0px;
-    background-color: #191919;
+    background-color: #13171b;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@
 }
 
 .navbar a:hover{
-    color: #6E07F3;
+    color: rgb(251, 143, 3);
 }
 
 @media screen and (max-width: 992px){
@@ -53,12 +53,12 @@ a:hover{
 }
 .btn-primary2:hover {
     background-color: rgba(5.0, 5.0, 0, 5.5);
-    color: rgb(251, 143, 3);;
+    color: rgb(251, 143, 3);
     transition: ease-in-out 0.4s;
 }
 .btn-primary2 a{
     text-decoration: none;
-    color: #6E07F3;
+    color: rgb(251, 143, 3);
     cursor: pointer;
 }
 
@@ -68,7 +68,5 @@ a:hover{
         display: flex;
         justify-content: space-around;
     }
-    .logotipo-navbar {
-        width: 120px;
-    }
+    
     }
