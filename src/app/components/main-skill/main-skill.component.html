@@ -1,0 +1,32 @@
+<div id="skills">
+    <h2>Explore comigo as tecnologias que domino com maestria</h2>
+    <div class="skill-conteiner">
+        <div class="box-skills skill1" (mouseenter)="esconder(1)" (mouseleave)="mostrar()"><img src="/assets/img/html1.png" alt="HTML" class="skill-icon"></div>
+        <div class="box-skills skill2" (mouseenter)="esconder(2)" (mouseleave)="mostrar()"><img src="/assets/img/java1.png" alt="java" class="skill-icon"></div>
+        <div class="box-skills skill3" (mouseenter)="esconder(3)" (mouseleave)="mostrar()"><img src="/assets/img/java-script1.png" alt="Javascript" class="skill-icon"></div>
+        <div class="box-skills skill4" (mouseenter)="esconder(4)" (mouseleave)="mostrar()"><img src="/assets/img/angular1.png" alt="Angular" class="skill-icon"></div>
+    </div>
+    <div class="skill-text">
+        <div *ngIf="isMain" class="text-content">
+            <h2 >Que tal explorarmos um pouco mais?</h2>
+           
+            <p>Passe o mouse em cima dos ícones acima e entenda cada tecnologia.</p>
+        </div>
+        <div *ngIf="Html"  class="text-content">
+            <h2 >HTML</h2>
+            <p>HTML é a linguagem padrão para criação de páginas web, estruturando conteúdo através de tags. Essencial para a construção de interfaces na web.</p>
+        </div>
+        <div *ngIf="Java"  class="text-content">
+            <h2>JAVA</h2>
+            <p>Java é uma linguagem de programação versátil, orientada a objetos, conhecida pela portabilidade. Amplamente usada no desenvolvimento de software corporativo e aplicativos empresariais.</p>
+        </div>
+        <div *ngIf="Js"  class="text-content">
+            <h2>JavaScript</h2>
+            <p>Javascript, também conhecida como JS, é uma linguagem de programação de uso geral, aplicada principalmente para desenvolvimento web e desenvolvimento de software. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+        </div>
+        <div *ngIf="Angular"  class="text-content">
+            <h2>Angular</h2>
+            <p>Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript desenvolvido e mantido pela Equipe Angular do Google</p>
+        </div>
+    </div>
+</div>

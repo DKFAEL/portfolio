@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { HabilidadeCardsComponent } from './habilidade-cards/habilidade-cards.component';
 import { MaterialModule } from '../shared/material/material.module';
+import { MainSkillComponent } from './main-skill/main-skill.component';
 
 
 
@@ -13,6 +14,7 @@ import { MaterialModule } from '../shared/material/material.module';
     HeaderComponent,
     ProjetosComponent,
     HabilidadeCardsComponent,
+    MainSkillComponent,
     
   ],
   imports: [
@@ -22,7 +24,8 @@ import { MaterialModule } from '../shared/material/material.module';
   ],
   exports: [
     HeaderComponent,
-   HabilidadeCardsComponent
+   HabilidadeCardsComponent,
+   MainSkillComponent
   ]
 })
 export class ComponentsModule { }
