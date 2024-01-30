@@ -6,6 +6,7 @@ import { HabilidadeCardsComponent } from './habilidade-cards/habilidade-cards.co
 import { MaterialModule } from '../shared/material/material.module';
 import { MainSkillComponent } from './main-skill/main-skill.component';
 import { ProjectComponent } from './projects/project.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,7 +16,8 @@ import { ProjectComponent } from './projects/project.component';
     HeaderComponent,
     HabilidadeCardsComponent,
     MainSkillComponent,
-    ProjectComponent
+    ProjectComponent,
+    FooterComponent
     
     
   ],
@@ -28,7 +30,8 @@ import { ProjectComponent } from './projects/project.component';
     HeaderComponent,
    HabilidadeCardsComponent,
    MainSkillComponent,
-   ProjectComponent
+   ProjectComponent,
+   FooterComponent
   ]
 })
 export class ComponentsModule { }
