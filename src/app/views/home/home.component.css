@@ -9,7 +9,7 @@ body {
             background-position: 90% 55%;
         }
         50% {
-            background-position: 70% 90%; /* Ajuste para o ponto intermediário */
+            background-position: 70% 90%; 
         }
         100% {
             background-position: 90% 100%;
